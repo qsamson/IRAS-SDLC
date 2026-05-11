@@ -52,7 +52,7 @@ See our comprehensive [**Deployment Guide**](DEPLOYMENT.md) for:
 ## 📄 Citation
 
 **Published Paper:**
-Quaye, S.; Dawson, M.; Ayed, A.B. IRAS-SDLC: Lifecycle Risk Aggregation for Secure AI-Augmented Software Assurance Under RMF and Zero Trust. *Systems* **2026**, *14*, 546. [https://doi.org/10.3390/systems14050546](https://doi.org/10.3390/systems14050546)
+Quaye, S.; Dawson, M.; Ayed, A.B. IRAS-SDLC: Lifecycle Risk Aggregation for Secure AI-Augmented Software Assurance Under RMF and Zero Trust. *Systems* **2026**, *14*, 546. [Read paper →](https://www.mdpi.com/2079-8954/14/5/546)
 
 **BibTeX:**
 ```bibtex
