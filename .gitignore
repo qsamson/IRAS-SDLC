@@ -16,6 +16,7 @@ build/
 
 # Data files (too large for Git)
 data/*.csv
+!data/iras_dataset.csv
 data/*.json
 data/processed/
 

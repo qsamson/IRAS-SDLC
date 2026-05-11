@@ -27,6 +27,26 @@ cd IRAS-SDLC
 # Install dependencies
 pip install -r requirements.txt
 ```
+## 🚀 Industry Deployment
+
+**Ready to integrate IRAS-SDLC into your organization?**
+
+See our comprehensive [**Deployment Guide**](DEPLOYMENT.md) for:
+- 🏭 Production deployment architecture
+- ⚙️ Configuration examples for different use cases
+- 🔧 CI/CD pipeline integration (GitHub Actions, Jenkins)
+- 📊 Risk weighting strategies (security-critical, high-traffic, balanced)
+- 🔌 API integration examples
+- ✅ Production checklist
+
+**Quick Deployment Scenarios:**
+- **Banking/Healthcare**: Prioritize Impact (γ=0.5)
+- **E-commerce/SaaS**: Prioritize Exploitability (β=0.5)
+- **Enterprise**: Balanced approach (α=0.4, β=0.3, γ=0.3)
+
+
+
+
 
 ## Citation
 
