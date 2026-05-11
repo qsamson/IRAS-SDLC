@@ -1,12 +1,14 @@
 # IRAS-SDLC
-
 **Intelligent Risk-Adaptive Secure SDLC: AI-Augmented Software Assurance under RMF and Zero Trust**
+
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset](https://img.shields.io/badge/dataset-included-brightgreen.svg)](data/iras_dataset.csv)
-[![Paper](https://img.shields.io/badge/paper-MDPI%20Systems-orange.svg)](https://github.com/qsamson/IRAS-SDLC)
+[![Paper](https://img.shields.io/badge/paper-MDPI%20Systems-orange.svg)](https://doi.org/10.3390/systems14050546)
+[![DOI](https://img.shields.io/badge/DOI-10.3390%2Fsystems14050546-blue.svg)](https://doi.org/10.3390/systems14050546)
 [![Deployment](https://img.shields.io/badge/deployment-industry%20ready-blue.svg)](DEPLOYMENT.md)
 [![Tests](https://img.shields.io/badge/tests-passing-success.svg)](test_iras.py)
+
 ## Overview
 
 IRAS-SDLC integrates AI-powered vulnerability detection with CVSS-based risk metrics across the entire software development lifecycle.
@@ -30,7 +32,6 @@ cd IRAS-SDLC
 pip install -r requirements.txt
 ```
 
-
 ## 🚀 Industry Deployment
 
 **Ready to integrate IRAS-SDLC into your organization?**
@@ -48,26 +49,31 @@ See our comprehensive [**Deployment Guide**](DEPLOYMENT.md) for:
 - **E-commerce/SaaS**: Prioritize Exploitability (β=0.5)
 - **Enterprise**: Balanced approach (α=0.4, β=0.3, γ=0.3)
 
+## 📄 Citation
 
+**Published Paper:**
 
+Quaye, S.; Dawson, M.; Ayed, A.B. IRAS-SDLC: Lifecycle Risk Aggregation for Secure AI-Augmented Software Assurance Under RMF and Zero Trust. *Systems* **2026**, *14*, 546. https://doi.org/10.3390/systems14050546
 
-
-## Citation
-
+**BibTeX:**
 ```bibtex
 @article{quaye2026iras,
   title={IRAS-SDLC: Lifecycle Risk Aggregation for Secure AI-Augmented Software Assurance Under RMF and Zero Trust},
   author={Quaye, Samson and Dawson, Maurice and Ben Ayed, Ahmed},
   journal={Systems},
+  volume={14},
+  number={5},
+  pages={546},
   year={2026},
-  publisher={MDPI}
+  publisher={MDPI},
+  doi={10.3390/systems14050546}
 }
 ```
 
 ## Authors
 
 - **Samson Quaye** - Illinois Institute of Technology
-- **Maurice Dawson** - Illinois Institute of Technology  
+- **Maurice Dawson** - Illinois Institute of Technology
 - **Ahmed Ben Ayed** - National University
 
 ## License
