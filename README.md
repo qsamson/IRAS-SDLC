@@ -27,6 +27,20 @@ cd IRAS-SDLC
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+## 📊 Architecture
+
+![IRAS-SDLC Architecture](docs/architecture.png)
+
+**Pipeline Flow:**
+1. **Development Phase** → Code commits trigger scanning
+2. **CodeBERT Detection** → AI analyzes code for vulnerabilities (V)
+3. **CVSS Integration** → Fetch exploitability (E) and impact (I) from NVD
+4. **Risk Aggregation** → Compute unified risk: R = αV + βE + γI
+5. **Decision Engine** → Map to actions (Monitor/Patch/Fix)
+
+
+
 ## 🚀 Industry Deployment
 
 **Ready to integrate IRAS-SDLC into your organization?**
