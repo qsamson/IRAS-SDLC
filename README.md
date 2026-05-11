@@ -1,10 +1,12 @@
 # IRAS-SDLC
 
 **Intelligent Risk-Adaptive Secure SDLC: AI-Augmented Software Assurance under RMF and Zero Trust**
-
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![Dataset](https://img.shields.io/badge/dataset-included-brightgreen.svg)](data/iras_dataset.csv)
+[![Paper](https://img.shields.io/badge/paper-MDPI%20Systems-orange.svg)](https://github.com/qsamson/IRAS-SDLC)
+[![Deployment](https://img.shields.io/badge/deployment-industry%20ready-blue.svg)](DEPLOYMENT.md)
+[![Tests](https://img.shields.io/badge/tests-passing-success.svg)](test_iras.py)
 ## Overview
 
 IRAS-SDLC integrates AI-powered vulnerability detection with CVSS-based risk metrics across the entire software development lifecycle.
