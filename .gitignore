@@ -21,10 +21,9 @@ data/*.json
 data/processed/
 
 # Models (too large)
-models/
-*.pth
-*.bin
-*.ckpt
+models/*.pth
+models/*.bin
+models/*.ckpt
 
 # IDE
 .vscode/
